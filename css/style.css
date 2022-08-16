@@ -1191,7 +1191,7 @@ textarea {
     color: #EC1C23;
 }
 .notice-video {
-    background: rgba(0, 0, 0, 0) url("../img/notice/video.jpg") repeat scroll 0 0;
+    background: rgba(0, 0, 0, 0) url("../img/vidéo.png") repeat scroll 0 0;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1367,7 +1367,7 @@ textarea {
 .course-img a:hover::after, .course-img:hover .course-hover{opacity: 1}
 .courses-area.two{
     position: relative;
-    background: url(../img/course/course-bg.jpg);
+    background: url(../img/ecole-241.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -1382,6 +1382,12 @@ textarea {
     content: "";
     background: rgba(44, 43, 94, 0.92);
 }
+
+.courses-area .cohortes{
+    display: flex;
+    justify-content: space-between;
+}
+
 .courses-area.two .section-title h2{color: #fff}
 .courses-area.two .section-title, .courses-area.two .single-course{z-index: 1; position: relative}
 .courses-area.two .course-content {background: #fff}
@@ -1756,7 +1762,7 @@ textarea {
 /*  8. Testimonial CSS
 /*----------------------------------------*/
 .testimonial-area{
-    background: url(../img/testimonial/testimonial-bg.jpg);
+    background: url(../img/1550332437583.jfif);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -2402,7 +2408,7 @@ textarea {
 /*----------------------------------------*/ 
 /*  13. Service CSS
 /*----------------------------------------*/
-.single-service{padding: 40px 40px; box-shadow: 0 0 4px 0 #ddd;}
+.single-service{padding: 40px 40px; box-shadow: 0 0 4px 0 rgb(238, 13, 13);}
 .service-area h3{
     font-size: 20px;
     color: #303030;
